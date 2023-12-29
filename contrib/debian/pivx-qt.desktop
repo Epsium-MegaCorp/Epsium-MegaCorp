@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Epsium
+Comment= EPS P2P Cryptocurrency
+Comment[fr]= EPS, monnaie virtuelle cryptographique pair à pair
+Comment[tr]= EPS, eşten eşe kriptografik sanal para birimi
+Exec=epsium-qt %u
+Terminal=false
+Type=Application
+Icon=epsium128
+MimeType=x-scheme-handler/pivx;
+Categories=Office;Finance;
+StartupWMClass=Epsium-qt
