@@ -26,9 +26,9 @@ Drag Epsium-Qt to your applications folder, and then run Epsium-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Epsium Wiki](https://github.com/epsium)
+* See the documentation at the [Epsium Wiki](https://github.com/Epsium-MegaCorp/Epsium-MegaCorp)
 for help and more information.
-* Join our Discord server [Discord Server](https://discord.gg/uTar2Sd)
+* Join our Discord server [Discord Server](https://discord.gg/cQP5zKnQvu)
 
 Building
 ---------------------
@@ -48,7 +48,7 @@ The Epsium repo's [root README](/README.md) contains relevant information on the
 - [Multiwallet Qt Development](multiwallet-qt.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://github.com/epsium)
+- [Source Code Documentation (External Link)](https://github.com/Epsium-MegaCorp/Epsium-MegaCorp)
 - [Translation Process](translation_process.md)
 - [Unit Tests](unit-tests.md)
 - [Unauthenticated REST Interface](REST-interface.md)
@@ -56,7 +56,7 @@ The Epsium repo's [root README](/README.md) contains relevant information on the
 
 ### Resources
 * Discuss on the [Epsium Homepage](https://epsium-megacorp.com/).
-* Join the [Epsium Discord](https://discord.gg/uTar2Sd).
+* Join the [Epsium Discord](https://discord.gg/cQP5zKnQvu).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

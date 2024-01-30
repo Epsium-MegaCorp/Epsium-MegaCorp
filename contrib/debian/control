@@ -29,8 +29,8 @@ Build-Depends: debhelper,
  dh-systemd
 Standards-Version: 3.9.2
 Homepage: https://epsium-megacorp.com/
-Vcs-Git: .git
-Vcs-Browser: https://github.com/Epsium-MegaCorp/EPS
+Vcs-Git: git://github.com/Epsium-MegaCorp/Epsium-MegaCorp.git
+Vcs-Browser: https://github.com/Epsium-MegaCorp/Epsium-MegaCorp
 
 Package: epsiumd
 Architecture: any

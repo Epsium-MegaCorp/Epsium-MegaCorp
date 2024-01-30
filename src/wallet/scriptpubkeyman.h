@@ -1,6 +1,6 @@
 // Copyright (c) 2019 The Bitcoin Core developers
 // Copyright (c) 2020 The PIVX developers
-// Copyright (c) 2021 The DECENOMY Core Developers
+// Copyright (c) 2021-2022 The DECENOMY Core Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -14,8 +14,8 @@
 //! Default for -keypool
 static const uint32_t DEFAULT_KEYPOOL_SIZE      = 100;
 static const uint32_t BIP32_HARDENED_KEY_LIMIT  = 0x80000000;
-// see it on https://github.com/satoshilabs/slips/blob/master/slip-0044.md
-static const uint32_t BIP32_HDCHAIN             = 0x353; //851
+// 851 see it on https://github.com/satoshilabs/slips/blob/master/slip-0044.md
+static const uint32_t BIP32_HDCHAIN             = 0x353; 
 
 /*
  * A class implementing ScriptPubKeyMan manages some (or all) scriptPubKeys used in a wallet.

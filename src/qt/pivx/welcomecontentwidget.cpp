@@ -1,5 +1,5 @@
 // Copyright (c) 2019 The PIVX developers
-// Copyright (c) 2021 The DECENOMY Core Developers
+// Copyright (c) 2021-2022 The DECENOMY Core Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -61,9 +61,9 @@ WelcomeContentWidget::WelcomeContentWidget(QWidget *parent) :
 
     // position
     backButton->move(backX, backY);
-    backButton->setStyleSheet("background: url(://ic-arrow-white-left); background-repeat:no-repeat;background-position:center;border:  0;background-color:#ffbf32;color: #ffbf32; border-radius:2px;");
+    backButton->setStyleSheet("background: url(://ic-arrow-white-left); background-repeat:no-repeat;background-position:center;border:  0;background-color:#810890;color: #810890; border-radius:2px;");
     nextButton->move(nextX, nextY);
-    nextButton->setStyleSheet("background: url(://ic-arrow-white-right);background-repeat:no-repeat;background-position:center;border:  0;background-color:#ffbf32;color: #ffbf32; border-radius:2px;");
+    nextButton->setStyleSheet("background: url(://ic-arrow-white-right);background-repeat:no-repeat;background-position:center;border:  0;background-color:#810890;color: #810890; border-radius:2px;");
 
     if (pos == 0) {
         backButton->setVisible(false);

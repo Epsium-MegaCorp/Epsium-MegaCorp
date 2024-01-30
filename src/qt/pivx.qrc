@@ -25,11 +25,11 @@
     <qresource prefix="/">
         <file alias="bg-splash">pivx/res/img/bg-splash.svg</file>
         <file alias="bg-splash-png">pivx/res/img/bg-splash.png</file>
-        <file alias="img-logo-epsium-png">pivx/res/img/img-logo-epsium.png</file>
-        <file alias="img-logo-epsium">pivx/res/img/img-logo-epsium.png</file>
-        <file alias="img-logo-epsium-2x">pivx/res/img/img-logo-epsium@2x.png</file>
-        <file alias="img-logo-epsium-3x">pivx/res/img/img-logo-epsium@3x.png</file>
-        <file alias="img-nav-logo-epsium">pivx/res/img/img-nav-logo-epsium.png</file>
+        <file alias="img-logo-pivx-png">pivx/res/img/img-logo-pivx.png</file>
+        <file alias="img-logo-pivx">pivx/res/img/img-logo-pivx.png</file>
+        <file alias="img-logo-pivx-2x">pivx/res/img/img-logo-pivx@2x.png</file>
+        <file alias="img-logo-pivx-3x">pivx/res/img/img-logo-pivx@3x.png</file>
+        <file alias="img-nav-logo-pivx">pivx/res/img/img-nav-logo-pivx.png</file>
         <file alias="img-qr-test-big">pivx/res/img/img-qr-test-big.png</file>
         <file alias="img-qr-test">pivx/res/img/img-qr-test.png</file>
         <file alias="img-welcome-step1">pivx/res/img/img-welcome-step1.png</file>
@@ -84,6 +84,8 @@
         <file alias="ic-check-sync-off">pivx/res/img/ic-check-sync-off.svg</file>
         <file alias="ic-check-sync">pivx/res/img/ic-check-sync.svg</file>
         <file alias="ic-check-faq">pivx/res/img/ic-check-faq.svg</file>
+        <file alias="ic-check-privacy">pivx/res/img/ic-check-privacy.svg</file>
+        <file alias="ic-check-privacy-off">pivx/res/img/ic-check-privacy-off.svg</file>
         <file alias="ic-check-theme-dark">pivx/res/img/ic-check-theme-dark.svg</file>
         <file alias="ic-check-theme-light">pivx/res/img/ic-check-theme-light.svg</file>
         <file alias="ic-check-white">pivx/res/img/ic-check-white.svg</file>
@@ -94,6 +96,7 @@
         <file alias="ic-clear-purple">pivx/res/img/ic-clear-purple.svg</file>
         <file alias="ic-close-white">pivx/res/img/ic-close-white.svg</file>
         <file alias="ic-close">pivx/res/img/ic-close.svg</file>
+        <file alias="ic-coin-piv">pivx/res/img/ic-coin-piv.svg</file>
         <file alias="ic-combo-box">pivx/res/img/ic-combo-box.svg</file>
         <file alias="ic-connect">pivx/res/img/ic-connect.svg</file>
         <file alias="ic-copy-liliac">pivx/res/img/ic-copy-liliac.svg</file>

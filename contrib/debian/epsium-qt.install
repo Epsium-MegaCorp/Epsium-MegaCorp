@@ -1,6 +1,0 @@
-usr/local/bin/epsium-qt usr/bin
-share/pixmaps/epsium32.xpm usr/share/pixmaps
-share/pixmaps/epsium16.xpm usr/share/pixmaps
-share/pixmaps/epsium128.png usr/share/pixmaps
-debian/epsium-qt.desktop usr/share/applications
-debian/epsium-qt.protocol usr/share/kde4/services/

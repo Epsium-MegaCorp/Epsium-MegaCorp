@@ -1,5 +1,5 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2021 The DECENOMY Core Developers
+// Copyright (c) 2021-2022 The DECENOMY Core Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -215,9 +215,9 @@ QColor getRowColor(bool isLightTheme, bool isHovered, bool isSelected)
         }
     } else {
         if (isSelected) {
-            return QColor("#1A1A1D");
+            return QColor("#212121");
         } else if (isHovered) {
-            return QColor("#1E1E22");
+            return QColor("#212121");
         } else {
             return QColor("#222226");
         }

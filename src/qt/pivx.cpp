@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2020 The PIVX developers
-// Copyright (c) 2021 The DECENOMY Core Developers
+// Copyright (c) 2021-2022 The DECENOMY Core Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -263,6 +263,7 @@ void BitcoinCore::initialize()
         qDebug() << __func__ << ": Running AppInit2 in thread";
         int rv = AppInit2();
         Q_EMIT initializeResult(rv);
+        fStakingActive = false;
     } catch (const std::exception& e) {
         handleRunawayException(&e);
     } catch (...) {
@@ -622,7 +623,7 @@ int main(int argc, char* argv[])
     if (!Intro::pickDataDirectory())
         return 0;
 
-    /// 6. Determine availability of data directory and parse epsium.conf
+    /// 6. Determine availability of data directory and parse __decenomy__.conf
     /// - Do not call GetDataDir(true) before this step finishes
     if (!fs::is_directory(GetDataDir(false))) {
         QMessageBox::critical(0, QObject::tr("Epsium"),

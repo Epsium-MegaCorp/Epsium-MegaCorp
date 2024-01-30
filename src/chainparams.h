@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2015 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2020 The PIVX developers
-// Copyright (c) 2021 The DECENOMY Core Developers
+// Copyright (c) 2021-2022 The DECENOMY Core Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,8 +10,8 @@
 #define BITCOIN_CHAINPARAMS_H
 
 #define __PORT_MAINNET__ 5095
-#define __PORT_TESTNET__ 21427
-#define __PORT_REGTEST__ 31427
+#define __PORT_TESTNET__ 5195
+#define __PORT_REGTEST__ 5295
 
 #include "chainparamsbase.h"
 #include "checkpoints.h"
@@ -21,6 +21,7 @@
 #include "uint256.h"
 
 #include <vector>
+#include <map>
 
 struct CDNSSeedData {
     std::string name, host;
@@ -35,7 +36,7 @@ struct SeedSpec6 {
 
 /**
  * CChainParams defines various tweakable parameters of a given instance of the
- * Epsium system. There are three: the main network on which people trade goods
+ * __Decenomy__ system. There are three: the main network on which people trade goods
  * and services, the public test network which gets reset from time to time and
  * a regression test mode which is intended for private networks only. It has
  * minimal difficulty to ensure that blocks can be found instantly.

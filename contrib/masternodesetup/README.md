@@ -1,30 +1,28 @@
-![Example-Logo](https://sappcoin.com/wp-content/uploads/2021/05/Epsium-logo-transparent.png)
+![Example-Logo](https://avatars.githubusercontent.com/u/74193190?v=4)
 
 # Epsium Masternode Setup Guide
 ***
 ## Required
 1) **EPS collateral value at current block** ([consult the collateral table](../../README.md#rewards-breakdown))
-2) **Local Wallet https://github.com/EpsiumBF/Epsium/releases/latest**
+2) **Local Wallet https://github.com/Epsium-MegaCorp/Epsium-MegaCorp/releases**
 3) **VPS with UBUNTU 18.04** (it is possible to work on other versions but it is not tested)
 4) **Putty https://www.putty.org/**
 5) **Text editor on your local pc to save data for copy/paste**
 ***
 
 ***On your Local Wallet***
-* Create an address with a label MN1 and send exactly the collateral amount to it ([consult the collateral table](../../README.md#rewards-breakdown)).
- Wait to complete 6 confirmations on “ Payment to yourself “ created.
- Or 15 confirmations if sent from an external wallet.
+* Create an address with a label MN1 and send exactly the collateral amount to it ([consult the collateral table](../../README.md#rewards-breakdown)). Wait to complete 6 confirmations on “ Payment to yourself “ created.
 
 * Open the Debug Console ( Tools – Debug Console ) and type ***createmasternodekey***.
 You will then receive your private key, save it in a txt to use it later.
   ```
   Example:
           createmasternodekey
-          8mTdWPF8Pbc6aTS36W5koLYZWSo5Jby5UJZWCAjDMo7AJYbBwy5
+          w8723KqiiqtiLH6y2ktjfwzuSrNucGAbagpmTmCn1KnNEeQTJKf
 * Still at Debug Console type ***getmasternodeoutputs*** and save txhash and outputidx on a txt
   ```
-  Exemple:
-          "txhash" : "726f3c137b1c567efdbe3bf0b0a061437a8ed52e515e709868d0623b73a31aee",
+  Example:
+          "txhash" : "12fce79c1a5623aa5b5830abff1a9feb6a682b75ee9fe22c647725a3gef42saa",
 		         "outputidx" : 0
 
 ***On Putty***
@@ -32,11 +30,11 @@ You will then receive your private key, save it in a txt to use it later.
 * Once logged in your vps, *copy/paste* each line one by one with *Enter*
 
 ```
-wget -q https://raw.githubusercontent.com/EpsiumBF/Epsium/master/contrib/masternodesetup/masternodesetup.sh
+wget -q https://raw.githubusercontent.com/Epsium-MegaCorp/Epsium-MegaCorp/master/contrib/masternodesetup/masternodesetup.sh
 ```
 
 ```
-chmod +x masternodesetup.sh && bash masternodesetup.sh
+bash masternodesetup.sh
 ```
 
 * Let this run, and when it ask you to install dependencies, if you're not sure press ***y*** and then enter
@@ -50,17 +48,7 @@ Remember to do `epsium-cli getblockcount` to check if VPS catching blocks till i
 * Go to your wallet-qt and check peers list (tools - peers list) and select one ip from the list. With that ip do the follow command at VPS `epsium-cli addnode "ip" onetry`
 
       Example:
-		  epsium-cli addnode seed01.epsium-megacorp.com onetry
-		  epsium-cli addnode seed02.epsium-megacorp.com onetry
-		  epsium-cli addnode seed03.epsium-megacorp.com onetry
-		  epsium-cli addnode seed04.epsium-megacorp.com onetry
-		  epsium-cli addnode seed05.epsium-megacorp.com onetry
-		  epsium-cli addnode seed06.epsium-megacorp.com onetry
-		  epsium-cli addnode seed07.epsium-megacorp.com onetry
-		  epsium-cli addnode seed08.epsium-megacorp.com onetry
-		  epsium-cli addnode seed09.epsium-megacorp.com onetry
-		  epsium-cli addnode seed10.epsium-megacorp.com onetry
-
+		  epsium-cli addnode 45.32.144.158 onetry
     
 * Check now if VPS already downloading blocks with the command `epsium-cli getblockcount`, and if yes give it time now to catch last block number 
 
@@ -70,10 +58,10 @@ Do not close your terminal/ command prompt window at this point.
 
 * Open the Masternode Configuration file (tools – open masternode configuration file) and add a new line (without #) using this template (bold needs to be changed) in the final save it and close the editor
 
-**ALIAS VPS_IP**:5095 **masternodeprivkey TXhash Output**
+**ALIAS VPS_IP**:4094 **masternodeprivkey TXhash Output**
 
 		Example:
-		MN1 149.28.232.213:5095 8mTdWPF8Pbc6aTS36W5koLYZWSo5Jby5UJZWCAjDMo7AJYbBwy5 726f3c137b1c567efdbe3bf0b0a061437a8ed52e515e709868d0623b73a31aee 0
+		MN1 125.67.32.10:4094 w8723KqiiqtiLH6y2ktjfwzuSrNucGAbagpmTmCn1KnNEeQTJKf 12fce79c1a5623aa5b5830abff1a9feb6a682b75ee9fe22c647725a3gef42saa 0
 
 * Close and Re-open Local Wallet, and at Masternode Tab you will find your MN with status MISSING
 
@@ -93,4 +81,4 @@ epsium-cli getmasternodestatus
 
 You need to get **"status" : 4** 
 
-## Congratulations your Epsium node is running
+## Congratulations your Epsium node it's running

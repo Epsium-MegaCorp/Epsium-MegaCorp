@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>These are your EPS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Das sind Ihre EPS-Adressen zum Empfangen von Zahlungen. Es wird empfohlen, für jede Transaktion eine neue Empfangsadresse zu verepsiumen.</translation>
+        <translation>Das sind Ihre EPS-Adressen zum Empfangen von Zahlungen. Es wird empfohlen, für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -307,7 +307,7 @@ Sind Sie sicher?</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Geben Sie die neue Passphrase für die Wallet ein.&lt;br/&gt;Bitte verepsiumen Sie eine Passphrase bestehend aus &lt;b&gt;10 oder mehr zufälligen Zeichen&lt;/b&gt; oder &lt;b&gt;8 oder mehr Wörtern&lt;/b&gt;.</translation>
+        <translation>Geben Sie die neue Passphrase für die Wallet ein.&lt;br/&gt;Bitte verwenden Sie eine Passphrase bestehend aus &lt;b&gt;10 oder mehr zufälligen Zeichen&lt;/b&gt; oder &lt;b&gt;8 oder mehr Wörtern&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -364,7 +364,7 @@ for staking</source>
     </message>
     <message>
         <source>EPS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your EPSs from being stolen by malware infecting your computer.</source>
-        <translation>Die Anepsiumung wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte bedenken Sie, dass auch die Verschlüsselung nicht vollständig vor Diebstahl Ihrer EPSs durch Schadsoftware schützt, die Ihren Computer befällt.</translation>
+        <translation>Die Anwendung wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte bedenken Sie, dass auch die Verschlüsselung nicht vollständig vor Diebstahl Ihrer EPSs durch Schadsoftware schützt, die Ihren Computer befällt.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -388,7 +388,7 @@ for staking</source>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>WICHTIG: Alle vorherigen Sicherungen sollten durch die neu erzeugte, verschlüsselte Wallet-Datei ersetzt werden. Aus Sicherheitsgründen werden ältere Sicherungen der unverschlüsselten Wallet nutzlos, sobald Sie die neue, verschlüsselte Wallet verepsiumen.</translation>
+        <translation>WICHTIG: Alle vorherigen Sicherungen sollten durch die neu erzeugte, verschlüsselte Wallet-Datei ersetzt werden. Aus Sicherheitsgründen werden ältere Sicherungen der unverschlüsselten Wallet nutzlos, sobald Sie die neue, verschlüsselte Wallet verwenden.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -553,11 +553,11 @@ for staking</source>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Sperre Verepsiumung</translation>
+        <translation>Sperre Verwendung</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Entsperre Verepsiumung</translation>
+        <translation>Entsperre Verwendung</translation>
     </message>
     <message>
         <source>Unselect all</source>
@@ -565,7 +565,7 @@ for staking</source>
     </message>
     <message>
         <source>Please switch to "List mode" to use this function.</source>
-        <translation>Bitte wechsle zur "Listenansicht" um diese Funktion zu verepsiumen.</translation>
+        <translation>Bitte wechsle zur "Listenansicht" um diese Funktion zu verwenden.</translation>
     </message>
     <message>
         <source>Quantity Copied</source>
@@ -661,7 +661,7 @@ for staking</source>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Das heißt, eine Gebühr von mindestens %1 pro kB ist notepsiumig.</translation>
+        <translation>Das heißt, eine Gebühr von mindestens %1 pro kB ist notwendig.</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
@@ -746,8 +746,8 @@ for staking</source>
         <translation>Filtern nach</translation>
     </message>
     <message>
-        <source>Amount of EPS and zEPS staked.</source>
-        <translation>Wieviele EPS und z EPS am Staken sind.</translation>
+        <source>Amount of EPS staked.</source>
+        <translation>Wieviele EPS am Staken sind.</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -971,7 +971,7 @@ Das Staking wird automatisch gestartet, sobald die Wallet genügend Bestätigung
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Standard-Datenverzeichnis verepsiumen</translation>
+        <translation>Standard-Datenverzeichnis verwenden</translation>
     </message>
     <message>
         <source>Use a custom data directory</source>
@@ -1293,7 +1293,7 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
     </message>
     <message>
         <source>Not enough balance to create a masternode, collateral required.</source>
-        <translation>Nicht genügend Coins für die Erzeugung eines Masternodes vorhanden, 10.000 %1 erforderlich.</translation>
+        <translation>Nicht genügend Coins für die Erzeugung eines Masternodes vorhanden, 6.000 %1 erforderlich.</translation>
     </message>
     <message>
         <source>Remote Masternode Data</source>
@@ -1555,7 +1555,7 @@ NODES</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Wenn Sie das Ausgeben von unbestätigtem Wechselgeld deaktivieren, so kann das Wechselgeld von einer Transaktion &lt;br/&gt;nicht verepsiumet werden, bis mindestens eine Bestätigung vorliegt.&lt;br/&gt;Dies hat auch Auswirkungen auf Ihre Bilanzberechnung.</translation>
+        <translation>Wenn Sie das Ausgeben von unbestätigtem Wechselgeld deaktivieren, so kann das Wechselgeld von einer Transaktion &lt;br/&gt;nicht verwendet werden, bis mindestens eine Bestätigung vorliegt.&lt;br/&gt;Dies hat auch Auswirkungen auf Ihre Bilanzberechnung.</translation>
     </message>
     <message>
         <source>Automatically open the EPS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
@@ -1615,45 +1615,17 @@ NODES</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-        https://discord.gg/ARRRgQzpdZ</source>
+        __decenomy_discord_link__</source>
         <translation>Sprache fehlt oder ist unvollständig? Helfe mit und trage zur Übersetzung bei unter:
-        https://discord.gg/ARRRgQzpdZ</translation>
+        __decenomy_discord_link__</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Port mit &amp;UPnP mappen</translation>
     </message>
     <message>
-        <source>Enable automatic minting of EPS units to zEPS</source>
-        <translation>Aktivieren Sie die automatische Prägung von EPS-Einheiten zu zEPS</translation>
-    </message>
-    <message>
-        <source>Enable zEPS Automint</source>
-        <translation>Aktivieren Sie zEPS Automint</translation>
-    </message>
-    <message>
-        <source>Enable automatic zEPS minting from specific addresses</source>
-        <translation>Automatisches zEPS Minting von spezifischen Adressen erlauben</translation>
-    </message>
-    <message>
         <source>Enable Automint Addresses</source>
         <translation>Automint Adressen aktivieren</translation>
-    </message>
-    <message>
-        <source>Percentage of incoming EPS which get automatically converted to zEPS via Zerocoin Protocol (min: 10%)</source>
-        <translation>Anteil des eingehenden EPS, welcher automatisch zu zEPS via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
-    </message>
-    <message>
-        <source>Percentage of autominted zEPS</source>
-        <translation>Prozentsatz der automatisierten zEPS</translation>
-    </message>
-    <message>
-        <source>Wait with automatic conversion to Zerocoin until enough EPS for this denomination is available</source>
-        <translation>Warte mit automatischer Konvertierung zu Zerocoin, bis genügend EPS für diese Stückelung verfügbar ist</translation>
-    </message>
-    <message>
-        <source>Preferred Automint zEPS Denomination</source>
-        <translation>Bevorzugte automatisierte zEPS Stückelung </translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -1693,7 +1665,7 @@ NODES</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimierung anstelle vom Schließen der Anepsiumung, wenn das Fenster geschlossen wird. Wenn diese Option aktiviert ist, wird die Anepsiumung nur geschlossen, wenn im Menü Beenden gewählt wird.</translation>
+        <translation>Minimierung anstelle vom Schließen der Anwendung, wenn das Fenster geschlossen wird. Wenn diese Option aktiviert ist, wird die Anwendung nur geschlossen, wenn im Menü Beenden gewählt wird.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
@@ -1832,7 +1804,7 @@ NODES</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Anepsiumung beenden</translation>
+        <translation>Anwendung beenden</translation>
     </message>
     <message>
         <source>Epsium client</source>
@@ -2264,7 +2236,7 @@ Adresse: %4
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Verepsiumete BerkeleyDB Version</translation>
+        <translation>Verwendete BerkeleyDB Version</translation>
     </message>
     <message>
         <source>Block chain</source>
@@ -2415,10 +2387,6 @@ Adresse: %4
         <translation>Benutzerdefinierter Sicherungspfad:</translation>
     </message>
     <message>
-        <source>Custom zEPS Backup Path:</source>
-        <translation>Benutzerdefinierter zEPS Sicherungspfad:</translation>
-    </message>
-    <message>
         <source>Custom Backups Threshold:</source>
         <translation>Benutzerdefinierter Sicherungs-Schwellwert:</translation>
     </message>
@@ -2548,7 +2516,7 @@ Adresse: %4
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
-        <translation>Verepsiume die Pfeiltasten um durch den Verlauf zu scrollen und %1 um das Konsolenfester zu löschen.</translation>
+        <translation>Verwende die Pfeiltasten um durch den Verlauf zu scrollen und %1 um das Konsolenfester zu löschen.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -3323,7 +3291,7 @@ Verify that you have installed a predetermined text editor.</source>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
-        <translation>Verepsiume die Pfeiltasten um durch den Verlauf zu scrollen und %1 um das Konsolenfester zu löschen.</translation>
+        <translation>Verwende die Pfeiltasten um durch den Verlauf zu scrollen und %1 um das Konsolenfester zu löschen.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -3511,8 +3479,8 @@ Es gab ein Problem bei dem Versuch die Adressen unter %1 zu speichern. Bitte ver
         <translation>2) Wieso kann ich meine EPS nicht ausgeben?</translation>
     </message>
     <message>
-        <source>https://epsium-megacorp.com/</source>
-        <translation>https://epsium-megacorp.com/</translation>
+        <source>https://epsium-megacorp.com//</source>
+        <translation>https://epsium-megacorp.com//</translation>
     </message>
     <message>
         <source>1</source>
@@ -3528,18 +3496,18 @@ Es gab ein Problem bei dem Versuch die Adressen unter %1 zu speichern. Bitte ver
                            EPS is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
                            zero fees.  EPS incorporates market leading security &amp;
-                           privacy and is also the first PoS (Proof of Stake) Cryptocurrency
-                           to implement ZeroCoin(zEPS) and Zerocoin staking.
+                           privacy.
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            EPS utilizes a Proof of Stake (PoS) consensus system algorithm,
                            allowing all owners of EPS to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
-                           run Masternodes to create and vote on proposals.
+                           run Masternodes to earn additional income regularly.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
-        <translation>EPS ist eine Form von digitalem Onlinegeld, das die Blockchaintechnologie verepsiumet und
-einfach, global, sofort und nahezu kostenlos versendet werden kann. EPS enthält marktführende Sicherheits- und Privatsphäretechnologien und ist auch die erste PoS (Proof of Stake) Kryptowährung, die ZeroCoin (zEPS) und Zerocoin Staking verepsiumet.
-EPS nutzt einen PoS Konsensalgorithmus, der es den Besitzern von EPS erlaubt, an der Vergabe der Block Rewards teilzuhaben, während das Netzwerk durch Fullnode Wallets abgesichert ist. Darüber hinaus können Masternode Proposals einreichen und darüber abstimmen.</translation>
+        <translation>EPS ist eine Form von digitalem Online-Geld mit Blockchain-Technologie, das einfach weltweit, sofort und nahezu gebührenfrei überwiesen werden kann. EPS beinhaltet marktführende Datenschutzsicherheit.
+        EPS verwendet einen Proof of Stake (PoS) Konsensus-Systemalgorithmus,
+        Allen Besitzern von EPS die Teilnahme am Sammeln von Blockbelohnungen zu ermöglichen
+        während das Netzwerk mit Full-Node-Wallets gesichert wird, sowie um Masternodes zu betreiben, um Vorschläge zu erstellen und darüber abzustimmen.</translation>
     </message>
     <message>
         <source>2</source>
@@ -3559,7 +3527,7 @@ EPS nutzt einen PoS Konsensalgorithmus, der es den Besitzern von EPS erlaubt, an
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
-        <translation>Neu empfangene EPS brauchen 6 Bestätigungen im Netzwerkum für Transaktionen verepsiumet werden zu können. Dies dauert ungeführ 6 Minuten. Ihr EPS Wallet muss auch komplett mit dem Netzwerk synchronisiert sein um Guthaben einsehen und versenden zu können.</translation>
+        <translation>Neu empfangene EPS brauchen 6 Bestätigungen im Netzwerkum für Transaktionen verwendet werden zu können. Dies dauert ungeführ 6 Minuten. Ihr EPS Wallet muss auch komplett mit dem Netzwerk synchronisiert sein um Guthaben einsehen und versenden zu können.</translation>
     </message>
     <message>
         <source>3</source>
@@ -3571,7 +3539,7 @@ EPS nutzt einen PoS Konsensalgorithmus, der es den Besitzern von EPS erlaubt, an
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You must have a balance of EPS with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (epsium-cli); the command &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Stellen Sie sicher, dass Ihre Wallet komplett synchronisiert ist und Sie die neueste Version verepsiumen.&lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Sie müssen einige EPS mit mindestens 600 Bestätigungen halten.&lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Ihre Wallt muss online und über den gesamten Staking Prozess entriegelt sein.&lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Sobald Sie all diese Schritte befolgen, sollte das Staking ermöglicht sein.&lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Sie können den Status des Stakings einsehen, indem Sie mit der Maus über das Paket Symbol in der oberen Reihe links ziehen. Das Paket wird aufleuchten und anzeigen: &amp;quot;Staking Enabled&amp;quot; , um Staking anzuzeigen. In der Kommandozeile (epsium-cli) zeigt der Befehl &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; den Status an.&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Stellen Sie sicher, dass Ihre Wallet komplett synchronisiert ist und Sie die neueste Version verwenden.&lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Sie müssen einige EPS mit mindestens 600 Bestätigungen halten.&lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Ihre Wallt muss online und über den gesamten Staking Prozess entriegelt sein.&lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Sobald Sie all diese Schritte befolgen, sollte das Staking ermöglicht sein.&lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Sie können den Status des Stakings einsehen, indem Sie mit der Maus über das Paket Symbol in der oberen Reihe links ziehen. Das Paket wird aufleuchten und anzeigen: &amp;quot;Staking Enabled&amp;quot; , um Staking anzuzeigen. In der Kommandozeile (epsium-cli) zeigt der Befehl &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; den Status an.&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>4</source>
@@ -3587,20 +3555,20 @@ EPS nutzt einen PoS Konsensalgorithmus, der es den Besitzern von EPS erlaubt, an
     </message>
     <message>
         <source>Where should I go if I need support?</source>
-        <translation>An wen kann ich mich epsiumen, wenn ich Hilfe benötige?</translation>
+        <translation>An wen kann ich mich wenden, wenn ich Hilfe benötige?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #b088ff' href='https://discord.gg/ARRRgQzpdZ'&gt;
+                           &lt;a style='color: #b088ff' href='https://discord.gg/cQP5zKnQvu'&gt;
                            #support in our Discord&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 Wir haben Support-Kanäle in den meisten unserer offiziellen Chatgruppen, z.B.
-&lt;a style='color: #b088ff' href='https://discord.gg/ARRRgQzpdZ'&gt;
+&lt;a style='color: #b088ff' href='https://discord.gg/cQP5zKnQvu'&gt;
 #support in Discord&lt;/a&gt;
 &lt;/a&gt;
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -3627,8 +3595,6 @@ Wir haben Support-Kanäle in den meisten unserer offiziellen Chatgruppen, z.B.
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
                            &lt;ul&gt;
-                           &lt;li&gt;A decentralized governance (Proposal Voting)&lt;/li&gt;
-                           &lt;li&gt;A decentralized budgeting system (Treasury)&lt;/li&gt;
                            &lt;li&gt;Validation of transactions within each block&lt;/li&gt;
                            &lt;li&gt;Act as an additional full node in the network&lt;/li&gt;
                            &lt;/ul&gt;
@@ -3661,7 +3627,7 @@ Wir haben Support-Kanäle in den meisten unserer offiziellen Chatgruppen, z.B.
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Ein Masternode ist ein Computer, auf dem ein EPS-Wallet als Node ausgeführt wird. Für das Betreiben eines Masternodes sind 10.000 EPS als Sicherheiten erforderlich, um zusätzliche Dienste für das Netzwerk bereitzustellen und im Gegenzug regelmäßig einen Teil der Blockbelohnung zu erhalten. Diese Dienstleistungen umfassen: &lt;/p&gt;&lt;p align="justify"&gt; &lt;ul&gt; &lt;li&gt; Soforttransaktionen (SwiftX)&lt;/li&gt; &lt;li&gt; Eine dezentrale Verwaltung (Proposal Voting)&lt;/li&gt; &lt;li&gt; Ein dezentrales Budgetierungssystem (Treasury)&lt;/li&gt; &lt;li&gt; Validierung von Transaktionen innerhalb jedes Blocks&lt;/li&gt; &lt;li&gt; Dient als zusätzlicher vollständiger Node im Netzwerk&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt;&lt;p align="justify"&gt; Für die Bereitstellung solcher Dienste erhalten Masternodes auch einen bestimmten Teil der Belohnung für jeden Block. Dies kann den Eigentümern des Masterknotens als passives Einkommen abzüglich ihrer laufenden Kosten dienen. &lt;/p&gt;&lt;p align="justify"&gt; Masternode Vorteile: &lt;/p&gt;&lt;p align="justify"&gt; &lt;ul&gt; &lt;li&gt; Nehme an der EPS Verwaltung teil&lt;/li&gt; &lt;li&gt;&lt;/li&gt; &lt;li&gt;Verdiene Masternode Vergütungen&lt;/li&gt; &lt;li&gt;Warenoption für zukünftigen Verkauf&lt;/li&gt; &lt;li&gt;Helfe das EPS Netzwerk zu stabilisieren&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt;&lt;p align="justify"&gt; Voraussetzungen: &lt;/p&gt;&lt;p align="justify"&gt; &lt;ul&gt; &lt;li&gt;10.000 EPS pro einzelne Masternode-Instanz&lt;/li&gt; &lt;li&gt;Muss in einem Core-Wallet aufbewahrt werden&lt;/li&gt; &lt;li&gt; Benötigt eine dedizierte IP-Adresse&lt;/li&gt; &lt;li&gt;Masternode bleibt 24h online&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt;&lt;/body&gt;&lt;/html&gt; </translation>
+Ein Masternode ist ein Computer, auf dem ein EPS-Wallet als Node ausgeführt wird. Für das Betreiben eines Masternodes sind 10.000 EPS als Sicherheiten erforderlich, um zusätzliche Dienste für das Netzwerk bereitzustellen und im Gegenzug regelmäßig einen Teil der Blockbelohnung zu erhalten. Diese Dienstleistungen umfassen: &lt;/p&gt;&lt;p align="justify"&gt; &lt;ul&gt; &lt;li&gt; Validierung von Transaktionen innerhalb jedes Blocks&lt;/li&gt; &lt;li&gt; Dient als zusätzlicher vollständiger Node im Netzwerk&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt;&lt;p align="justify"&gt; Für die Bereitstellung solcher Dienste erhalten Masternodes auch einen bestimmten Teil der Belohnung für jeden Block. Dies kann den Eigentümern des Masterknotens als passives Einkommen abzüglich ihrer laufenden Kosten dienen. &lt;/p&gt;&lt;p align="justify"&gt; Masternode Vorteile: &lt;/p&gt;&lt;p align="justify"&gt; &lt;ul&gt; &lt;li&gt; Nehme an der EPS Verwaltung teil&lt;/li&gt; &lt;li&gt;&lt;/li&gt; &lt;li&gt;Verdiene Masternode Vergütungen&lt;/li&gt; &lt;li&gt;Warenoption für zukünftigen Verkauf&lt;/li&gt; &lt;li&gt;Helfe das EPS Netzwerk zu stabilisieren&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt;&lt;p align="justify"&gt; Voraussetzungen: &lt;/p&gt;&lt;p align="justify"&gt; &lt;ul&gt; &lt;li&gt;10.000 EPS pro einzelne Masternode-Instanz&lt;/li&gt; &lt;li&gt;Muss in einem Core-Wallet aufbewahrt werden&lt;/li&gt; &lt;li&gt; Benötigt eine dedizierte IP-Adresse&lt;/li&gt; &lt;li&gt;Masternode bleibt 24h online&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt;&lt;/body&gt;&lt;/html&gt; </translation>
     </message>
     <message>
         <source>Frequently Asked Questions</source>
@@ -3673,7 +3639,7 @@ Ein Masternode ist ein Computer, auf dem ein EPS-Wallet als Node ausgeführt wir
     </message>
     <message>
         <source>4) Where I should go if I need support?</source>
-        <translation>4) An wen soll ich mich epsiumen, wenn ich Hilfe benötige?</translation>
+        <translation>4) An wen soll ich mich wenden, wenn ich Hilfe benötige?</translation>
     </message>
     <message>
         <source>5) What is a Masternode?</source>
@@ -3792,7 +3758,7 @@ Ein Masternode ist ein Computer, auf dem ein EPS-Wallet als Node ausgeführt wir
     </message>
     <message>
         <source>Unable to open epsium.conf with default application</source>
-        <translation>epsium.conf konnte mit der Standardanepsiumung nicht geöffnet werden</translation>
+        <translation>epsium.conf konnte mit der Standardanwendung nicht geöffnet werden</translation>
     </message>
     <message>
         <source>In:</source>
@@ -3815,7 +3781,7 @@ Ein Masternode ist ein Computer, auf dem ein EPS-Wallet als Node ausgeführt wir
     </message>
     <message>
         <source>Customize the application window options</source>
-        <translation>Optionen des Anepsiumungsfensters anpassen</translation>
+        <translation>Optionen des Anwendungsfensters anpassen</translation>
     </message>
     <message>
         <source>Reset to default</source>
@@ -3835,7 +3801,7 @@ Ein Masternode ist ein Computer, auf dem ein EPS-Wallet als Node ausgeführt wir
     </message>
     <message>
         <source>Customize the main application options</source>
-        <translation>Die Optionen der Hauptanepsiumung anpassen</translation>
+        <translation>Die Optionen der Hauptanwendung anpassen</translation>
     </message>
     <message>
         <source>Size of database cache</source>
@@ -3866,7 +3832,7 @@ Ein Masternode ist ein Computer, auf dem ein EPS-Wallet als Node ausgeführt wir
 
 Are you sure?
 </source>
-        <translation>Sind sind dabei die Optionen der Anepsiumung auf die Standardwerte zurückzusetzen.
+        <translation>Sind sind dabei die Optionen der Anwendung auf die Standardwerte zurückzusetzen.
 
 Sind Sie sicher?</translation>
     </message>
@@ -4550,8 +4516,8 @@ Sind Sie sicher?</translation>
         <translation>Staking aktiv</translation>
     </message>
     <message>
-        <source>Staking not active</source>
-        <translation>Staking nicht aktiv</translation>
+        <source>Staking inactive</source>
+        <translation>Staking inaktiv</translation>
     </message>
     <message>
         <source>Synchronized - Block: %1</source>
@@ -4998,24 +4964,25 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
         <translation>Wählen Sie Ihre Sprache</translation>
     </message>
     <message>
-        <source>Epsium Beyond</source>
-        <translation>Epsium Beyond</translation>
+        <source>Welcome to
+Epsium Wallet</source>
+        <translation>Willkommen beim Epsium Wallet</translation>
     </message>
     <message>
-        <source>Epsium beyond forum is the first cryptocurrency forum with its own blockchain based on PoS.</source>
-        <translation>Epsium beyond forum is the first cryptocurrency forum with its own blockchain based on PoS.</translation>
+        <source>EPS is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>EPS ist die innovativste, auf Proof of Stake Blockchain basierende Technologie. Es wurde von einem Team hoch erfahrener Entwickler und Kryptographen entwickelt.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - EPS believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>Wie unser Manifestum sagt: Privatsphäre ist ein nicht-verhandelbares Menschenrecht; es garantiert Nuzern die Freiheit ihre Daten wann immer und mit wem auch immer zu teilen - EPS galubt an diese Souveränität.</translation>
     </message>
     <message>
-        <source>Masternodes are part of the infrastructure that sustains Epsium coin. They verify new blocks and perform special roles in governing the blockchain.</source>
-        <translation>Masternodes are part of the infrastructure that sustains Epsium coin. They verify new blocks and perform special roles in governing the blockchain.</translation>
+        <source>The masternode network is EPS's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Das Masternode Netzwerk ist EPS zweite Schicht, die auf der Blockchain aufgesetzt wurde und unserer DAO ermöglicht, dezentrale Steuerung und einen Fiskus ermöglicht.</translation>
     </message>
     <message>
-        <source>Be inspired by community</source>
-        <translation>Be inspired by community</translation>
+        <source>How EPS respects your privacy?</source>
+        <translation>Wie respektiert EPS meine Privatsphäre?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -5053,10 +5020,6 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
         <translation>Kann keine Sperre für das Datenverzeichnis %s erhalten. Epsium läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Ändere das automatische, finale Budget Stimmverhalten. Modus=auto: Stimme nur für exakt finale Budgets, welche meinem generierten Budget entsprechen. (string, Standard:auto)</translation>
-    </message>
-    <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Begrenze freie Transaktionen Permanent auf &lt;n&gt;*1000 Bytes pro Minute (Standard:%u)</translation>
     </message>
@@ -5069,10 +5032,6 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
         <translation>Lösche alle Wallet-Transaktionen und stelle nur diese Teile der Blockchain  beim Start durch -neuscan wieder her</translation>
     </message>
     <message>
-        <source>Delete all zerocoin spends and mints that have been recorded to the blockchain database and reindex them (0-1, default: %u)</source>
-        <translation>Lösche alle Zerocoin Überweisungen und Prägungen die in der Blockchain-Datenbank gespeichert wurden und reindiziere diese (0-1, Standard: %u)</translation>
-    </message>
-    <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Veröffentlicht unter der MIT-Software-Lizenz, siehe die beigelegte Datei COPYING oder &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
@@ -5082,7 +5041,7 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
-        <translation>Gebe den Regressions-Testmodus ein, der eine spezielle Kette verepsiumet, in der Blöcke sofort gelöst werden können.</translation>
+        <translation>Gebe den Regressions-Testmodus ein, der eine spezielle Kette verwendet, in der Blöcke sofort gelöst werden können.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -5138,7 +5097,7 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Pflege einen vollständigen Transaktionsindex, der von getrawtransaction rpc call verepsiumet wird. (default: %u)</translation>
+        <translation>Pflege einen vollständigen Transaktionsindex, der von getrawtransaction rpc call verwendet wird. (default: %u)</translation>
     </message>
     <message>
         <source>Maximum average size of an index occurrence in the block spam filter (default: %u)</source>
@@ -5154,7 +5113,7 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation>Maximale Gesamtgebühren für die Verepsiumung in einer einzigen Wallet-Transaktion. Zu niedrige Einstellung kann große Transaktionen abbrechen (default: %s)</translation>
+        <translation>Maximale Gesamtgebühren für die Verwendung in einer einzigen Wallet-Transaktion. Zu niedrige Einstellung kann große Transaktionen abbrechen (default: %s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
@@ -5182,7 +5141,7 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Anzahl der Threads festlegen, die für die Skript Verifikation verepsiumet werden (%u to %d, 0 = auto, &lt;0 = diese Anzahl an Kernen ungenutzt lassen, Standard: %d)</translation>
+        <translation>Anzahl der Threads festlegen, die für die Skript Verifikation verwendet werden (%u to %d, 0 = auto, &lt;0 = diese Anzahl an Kernen ungenutzt lassen, Standard: %d)</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
@@ -5210,11 +5169,11 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Epsium is probably already running.</source>
-        <translation>Fehler: Port %s ist bereits belegt! Läuft bereits eine andere Epsium Beyond ?</translation>
+        <translation>Fehler: Port %s ist bereits belegt! Läuft bereits eine andere Epsium Wallet ?</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Verepsiume seperate SOCKS5-Proxys um Gegenstellen über Tor-Hidden-Services zu erreichen (Standard: %s)</translation>
+        <translation>Verwende seperate SOCKS5-Proxys um Gegenstellen über Tor-Hidden-Services zu erreichen (Standard: %s)</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
@@ -5226,7 +5185,7 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
     </message>
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Epsium will not work properly.</source>
-        <translation>Warnung: Bitte stellen Sie sicher, das vom Computer verepsiumete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird Epsium nicht korrekt funktionieren.</translation>
+        <translation>Warnung: Bitte stellen Sie sicher, das vom Computer verwendete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird Epsium nicht korrekt funktionieren.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5365,10 +5324,6 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
         <translation>Fehler beim Lesen der Datenbank, wird heruntergefahren.</translation>
     </message>
     <message>
-        <source>Error writing zerocoinDB to disk</source>
-        <translation>Fehler beim Schreiben von zerocoinDB auf die Festplatte</translation>
-    </message>
-    <message>
         <source>Error</source>
         <translation>Fehler</translation>
     </message>
@@ -5469,28 +5424,16 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
         <translation>Bestimme EPS Bestand erneut...</translation>
     </message>
     <message>
-        <source>Reindexing zerocoin database...</source>
-        <translation>Reindiziere Zerocoin Datenbank...</translation>
-    </message>
-    <message>
-        <source>Reindexing zerocoin failed</source>
-        <translation>Zerocoin Reindizierung fehlgeschlagen</translation>
-    </message>
-    <message>
         <source>Selected coins value is less than payment target</source>
         <translation>Ausgewählter Coinwert ist geringer als der Zielbetrag</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
-        <translation>Dies ist ein Pre-Release-Testbuild - Nutzung auf eigene Gefahr - Nutzen Sie diese Version nicht für Staking oder Handelsanepsiumungen.</translation>
+        <translation>Dies ist ein Pre-Release-Testbuild - Nutzung auf eigene Gefahr - Nutzen Sie diese Version nicht für Staking oder Handelsanwendungen.</translation>
     </message>
     <message>
-        <source>Disable all EPS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Deaktivieren Sie alle EPS-spezifischen Funktionen (Masternodes, Zerocoin, SwiftX, Budgetierung) (0-1, Standard: %u)</translation>
-    </message>
-    <message>
-        <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Swifttx aktivieren, Bestätigungen für gesperrte Transaktionen anzeigen (bool, default: %s)</translation>
+        <source>Disable all EPS specific functionality (Masternodes) (0-1, default: %u)</source>
+        <translation>Deaktivieren Sie alle EPS-spezifischen Funktionen (Masternodes) (0-1, Standard: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
@@ -5565,14 +5508,6 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
         <translation>Parsen des Public Spend gescheitert</translation>
     </message>
     <message>
-        <source>Failed to select a zerocoin</source>
-        <translation>Fehler beim Auswählen einer Nullstelle</translation>
-    </message>
-    <message>
-        <source>Failed to wipe zerocoinDB</source>
-        <translation>Zerocoin Datenbank konnte nicht gelöscht werden</translation>
-    </message>
-    <message>
         <source>Failed to write coin serial number into wallet</source>
         <translation>Fehler beim Schreiben der Seriennummer der Münze in die Brieftasche</translation>
     </message>
@@ -5607,10 +5542,6 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
     <message>
         <source>Loading block index...</source>
         <translation>Lade Block-Index...</translation>
-    </message>
-    <message>
-        <source>Loading budget cache...</source>
-        <translation>Lade Budget Puffer...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -5742,8 +5673,8 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
     </message>
     <message>
         <source>Do not accept transactions whose size with all in-mempool ancestors exceeds &lt;n&gt; kilobytes (default: %u)</source>
-        <translation> 
- 
+        <translation>
+
 Akzeptiere keine Transaktion, deren vorherige Größe mit &lt;n&gt; im Mempool überschritten wird (Standard: %u)</translation>
     </message>
     <message>
@@ -5764,7 +5695,7 @@ Akzeptiere keine Transaktion, deren vorherige Größe mit &lt;n&gt; im Mempool �
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong Epsium will not work properly.</source>
-        <translation>Bitte stellen Sie sicher, das vom Computer verepsiumete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird Epsium nicht korrekt funktionieren.</translation>
+        <translation>Bitte stellen Sie sicher, das vom Computer verwendete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird Epsium nicht korrekt funktionieren.</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
@@ -5776,7 +5707,7 @@ Akzeptiere keine Transaktion, deren vorherige Größe mit &lt;n&gt; im Mempool �
     </message>
     <message>
         <source>WARNING: The transaction has been signed and recorded, so the wallet will try to re-send it. Use 'abandontransaction' to cancel it. (txid: %s)</source>
-        <translation>WARNUNG: Die Transaktion wurde signiert und aufgezeichnet, sodass das Wallet versucht, sie erneut zu senden. Verepsiumen Sie 'abandontransaction', um den Vorgang abzubrechen. (txid: %s)</translation>
+        <translation>WARNUNG: Die Transaktion wurde signiert und aufgezeichnet, sodass das Wallet versucht, sie erneut zu senden. Verwenden Sie 'abandontransaction', um den Vorgang abzubrechen. (txid: %s)</translation>
     </message>
     <message>
         <source>(must be %d for %s-net)</source>
@@ -5788,7 +5719,7 @@ Akzeptiere keine Transaktion, deren vorherige Größe mit &lt;n&gt; im Mempool �
     </message>
     <message>
         <source>Allows deprecated RPC method(s) to be used</source>
-        <translation>Erlaubt die Verepsiumung veralteter RPC-Methode(n)</translation>
+        <translation>Erlaubt die Verwendung veralteter RPC-Methode(n)</translation>
     </message>
     <message>
         <source>Can't generate a change-address key. Please call keypoolrefill first.</source>
@@ -5804,7 +5735,7 @@ Akzeptiere keine Transaktion, deren vorherige Größe mit &lt;n&gt; im Mempool �
     </message>
     <message>
         <source>Error: -listen must be true if -masternode is set.</source>
-        <translation> 
+        <translation>
 Fehler: -listen muss true sein, wenn -masternode gesetzt ist</translation>
     </message>
     <message>
@@ -5842,8 +5773,8 @@ Fehler: -listen muss true sein, wenn -masternode gesetzt ist</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
-        <translation> 
- 
+        <translation>
+
 Halte den Transaktionsspeicherpool unter &lt;n&gt;  Megabyte (Standard: %u)</translation>
     </message>
     <message>
@@ -5932,7 +5863,7 @@ Halte den Transaktionsspeicherpool unter &lt;n&gt;  Megabyte (Standard: %u)</tra
     </message>
     <message>
         <source>Set external address:port to get to this masternode (example: %s)</source>
-        <translation>Port für externe Adressen festlegen, die verepsiumet werden um diese Masternode anzusteuern (Beispiel: %s)</translation>
+        <translation>Port für externe Adressen festlegen, die verwendet werden um diese Masternode anzusteuern (Beispiel: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
@@ -5964,7 +5895,7 @@ Halte den Transaktionsspeicherpool unter &lt;n&gt;  Megabyte (Standard: %u)</tra
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Zeige alle debugging Optionen (verepsiume: --help -help-debug)</translation>
+        <translation>Zeige alle debugging Optionen (verwende: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
@@ -6023,10 +5954,6 @@ Halte den Transaktionsspeicherpool unter &lt;n&gt;  Megabyte (Standard: %u)</tra
         <translation>Synchronisierung erfolgreich beendet</translation>
     </message>
     <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Synchronisiere Budgets....</translation>
-    </message>
-    <message>
         <source>Synchronizing masternode winners...</source>
         <translation>Synchronisiere ausgewählte Masternodes....</translation>
     </message>
@@ -6039,12 +5966,8 @@ Halte den Transaktionsspeicherpool unter &lt;n&gt;  Megabyte (Standard: %u)</tra
         <translation>Synchronisiere Sporks....</translation>
     </message>
     <message>
-        <source>Syncing zEPS wallet...</source>
-        <translation>Synchronisiere zEPS Wallet... </translation>
-    </message>
-    <message>
         <source>The threshold value cannot be less than %s</source>
-        <translation> 
+        <translation>
 Der Schwellenwert darf nicht kleiner sein als %s</translation>
     </message>
     <message>
@@ -6057,7 +5980,7 @@ Der Schwellenwert darf nicht kleiner sein als %s</translation>
     </message>
     <message>
         <source>This is intended for regression testing tools and app development.</source>
-        <translation>Dies ist für Regressionstest-Tools und Anepsiumungsentwicklung gedacht.</translation>
+        <translation>Dies ist für Regressionstest-Tools und Anwendungsentwicklung gedacht.</translation>
     </message>
     <message>
         <source>This is not a masternode. 'local' option disabled.</source>
@@ -6081,7 +6004,7 @@ Der Schwellenwert darf nicht kleiner sein als %s</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Zu verepsiumender Tor Kontroll-Port, falls onion Überwachung aktiviert ist (Standard %s)</translation>
+        <translation>Zu verwendender Tor Kontroll-Port, falls onion Überwachung aktiviert ist (Standard %s)</translation>
     </message>
     <message>
         <source>Transaction Created</source>
@@ -6145,11 +6068,11 @@ Der Schwellenwert darf nicht kleiner sein als %s</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>UPnP verepsiumen, um eine Portweiterleitung einzurichten (Standard: %u)</translation>
+        <translation>UPnP verwenden, um eine Portweiterleitung einzurichten (Standard: %u)</translation>
     </message>
     <message>
         <source>Use the test network</source>
-        <translation>Das Testnetzwerk verepsiumen</translation>
+        <translation>Das Testnetzwerk verwenden</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
@@ -6158,10 +6081,6 @@ Der Schwellenwert darf nicht kleiner sein als %s</translation>
     <message>
         <source>Username for JSON-RPC connections</source>
         <translation>Benutzername für JSON-RPC-Verbindungen</translation>
-    </message>
-    <message>
-        <source>Value is below the smallest available denomination (= 1) of zEPS</source>
-        <translation>Der Betrag ist unterhalb des kleinsten Wertes (=1) an zEPS</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -6204,10 +6123,6 @@ Der Schwellenwert darf nicht kleiner sein als %s</translation>
         <translation>Warnung: Nicht unterstütztes Argument -debugnet wurde ignoriert, nutze stattdessen -debug=net.</translation>
     </message>
     <message>
-        <source>You don't have enough Zerocoins in your wallet</source>
-        <translation>Du hast nicht genug Zerocoins in deiner Brieftasche</translation>
-    </message>
-    <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Sie müssen die Datenbank mithilfe von -reindex neu erstellen, um -txindex zu ändern</translation>
     </message>
@@ -6218,14 +6133,6 @@ Der Schwellenwert darf nicht kleiner sein als %s</translation>
     <message>
         <source>ZeroMQ notification options:</source>
         <translation>ZeroMQ Benachrichtigungsoptionen:</translation>
-    </message>
-    <message>
-        <source>Zerocoin minting available only on regtest</source>
-        <translation>Zerocoin Prägung nur in regtest verfügbar</translation>
-    </message>
-    <message>
-        <source>Zerocoin options:</source>
-        <translation>Zerocoin Optionen:</translation>
     </message>
     <message>
         <source>on startup</source>

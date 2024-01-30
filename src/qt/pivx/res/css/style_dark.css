@@ -418,6 +418,32 @@ QPushButton[cssClass="btn-check-hd-upgrade"]:checked {
 
 /** End btn HD Upgrade */
 
+
+QPushButton[cssClass="btn-check-privacy"] {
+  qproperty-icon: url("://ic-check-privacy");
+  qproperty-iconSize: 24px 24px;
+  background-color: #0F0F0F;
+  color: #ffffff;
+  padding-right: 6px;
+  padding-left: 6px;
+  border-radius: 2px;
+}
+
+QPushButton[cssClass="btn-check-privacy-inactive"] {
+  qproperty-icon: url("://ic-check-privacy-off");
+  qproperty-iconSize: 24px 24px;
+  background-color: #0F0F0F;
+  color: #ffffff;
+  padding-right: 6px;
+  padding-left: 6px;
+  border-radius: 2px;
+}
+
+QPushButton[cssClass="btn-check-privacy"]:checked {
+  background-color: #0F0F0F;
+  border-radius: 2px;
+}
+
 QPushButton[cssClass="btn-check-faq"] {
   qproperty-icon: url("://ic-check-faq");
   qproperty-iconSize: 24px 24px;
@@ -842,7 +868,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-list-amount-receive"] {
-  color: #008D36;
+  color: #C8A80A;
   font-size: 16px;
 }
 

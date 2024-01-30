@@ -606,7 +606,7 @@ else:
 
 # ------------------------------------------------
 
-target = os.path.join("dist", "Epsium-Qt.app")
+target = os.path.join("dist", "__Decenomy__-Qt.app")
 
 if verbose >= 2:
     print("+ Copying source bundle +")

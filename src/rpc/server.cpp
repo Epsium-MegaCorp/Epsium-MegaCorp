@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2020 The PIVX developers
-// Copyright (c) 2021 The DECENOMY Core Developers
+// Copyright (c) 2021-2022 The DECENOMY Core Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -266,11 +266,11 @@ UniValue stop(const JSONRPCRequest& jsonRequest)
     if (jsonRequest.fHelp || jsonRequest.params.size() > 1)
         throw std::runtime_error(
             "stop\n"
-            "\nStop EPS server.");
+            "\nStop Epsium server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "EPS server stopping";
+    return "Epsium server stopping";
 }
 
 
@@ -298,11 +298,10 @@ static const CRPCCommand vRPCCommands[] =
         {"network", "setban", &setban, true },
         {"network", "listbanned", &listbanned, true },
         {"network", "clearbanned", &clearbanned, true },
+        {"network", "checkconnection", &checkconnection, true },
 
         /* Block chain and UTXO */
-        {"blockchain", "findserial", &findserial, true },
         {"blockchain", "getblockindexstats", &getblockindexstats, true },
-        {"blockchain", "getserials", &getserials, true },
         {"blockchain", "getblockchaininfo", &getblockchaininfo, true },
         {"blockchain", "getbestblockhash", &getbestblockhash, true },
         {"blockchain", "getblockcount", &getblockcount, true },
@@ -319,6 +318,8 @@ static const CRPCCommand vRPCCommands[] =
         {"blockchain", "invalidateblock", &invalidateblock, true },
         {"blockchain", "reconsiderblock", &reconsiderblock, true },
         {"blockchain", "verifychain", &verifychain, true },
+        {"blockchain", "getburnaddresses", &getburnaddresses, true },
+        {"blockchain", "rewindblockindex", &rewindblockindex, true },
 
         /* Mining */
         {"mining", "getblocktemplate", &getblocktemplate, true },
@@ -368,25 +369,17 @@ static const CRPCCommand vRPCCommands[] =
         {"epsium", "relaymasternodebroadcast", &relaymasternodebroadcast, true },
         {"epsium", "masternodecurrent", &masternodecurrent, true },
         {"epsium", "startmasternode", &startmasternode, true },
+        {"epsium", "reloadmasternodeconfig", &reloadmasternodeconfig, true },
         {"epsium", "createmasternodekey", &createmasternodekey, true },
         {"epsium", "getmasternodeoutputs", &getmasternodeoutputs, true },
         {"epsium", "listmasternodeconf", &listmasternodeconf, true },
+        {"epsium", "getactivemasternodecount", &getactivemasternodecount, true },
         {"epsium", "getmasternodestatus", &getmasternodestatus, true },
         {"epsium", "getmasternodewinners", &getmasternodewinners, true },
         {"epsium", "getmasternodescores", &getmasternodescores, true },
-        {"epsium", "preparebudget", &preparebudget, true },
-        {"epsium", "submitbudget", &submitbudget, true },
-        {"epsium", "mnbudgetvote", &mnbudgetvote, true },
-        {"epsium", "getbudgetvotes", &getbudgetvotes, true },
-        {"epsium", "getnextsuperblock", &getnextsuperblock, true },
-        {"epsium", "getbudgetprojection", &getbudgetprojection, true },
-        {"epsium", "getbudgetinfo", &getbudgetinfo, true },
-        {"epsium", "mnbudgetrawvote", &mnbudgetrawvote, true },
-        {"epsium", "mnfinalbudget", &mnfinalbudget, true },
-        {"epsium", "checkbudgets", &checkbudgets, true },
         {"epsium", "mnsync", &mnsync, true },
         {"epsium", "spork", &spork, true },
-        {"epsium", "getcollateral", &getcollateral, true},
+        {"epsium", "mnping", &mnping, true },
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -395,27 +388,6 @@ static const CRPCCommand vRPCCommands[] =
         {"wallet", "getaddressinfo", &getaddressinfo, true },
         {"wallet", "getstakingstatus", &getstakingstatus, false },
         {"wallet", "multisend", &multisend, false },
-        {"zerocoin", "createrawzerocoinspend", &createrawzerocoinspend, false },
-        {"zerocoin", "getzerocoinbalance", &getzerocoinbalance, false },
-        {"zerocoin", "listmintedzerocoins", &listmintedzerocoins, false },
-        {"zerocoin", "listspentzerocoins", &listspentzerocoins, false },
-        {"zerocoin", "listzerocoinamounts", &listzerocoinamounts, false },
-        {"zerocoin", "mintzerocoin", &mintzerocoin, false },
-        {"zerocoin", "spendzerocoin", &spendzerocoin, false },
-        {"zerocoin", "spendrawzerocoin", &spendrawzerocoin, true },
-        {"zerocoin", "spendzerocoinmints", &spendzerocoinmints, false },
-        {"zerocoin", "resetmintzerocoin", &resetmintzerocoin, false },
-        {"zerocoin", "resetspentzerocoin", &resetspentzerocoin, false },
-        {"zerocoin", "getarchivedzerocoin", &getarchivedzerocoin, false },
-        {"zerocoin", "importzerocoins", &importzerocoins, false },
-        {"zerocoin", "exportzerocoins", &exportzerocoins, false },
-        {"zerocoin", "reconsiderzerocoins", &reconsiderzerocoins, false },
-        {"zerocoin", "getspentzerocoinamount", &getspentzerocoinamount, false },
-        {"zerocoin", "getzpivseed", &getzpivseed, false },
-        {"zerocoin", "setzpivseed", &setzpivseed, false },
-        {"zerocoin", "generatemintlist", &generatemintlist, false },
-        {"zerocoin", "searchdzpiv", &searchdzpiv, false },
-        {"zerocoin", "dzpivstate", &dzpivstate, false },
 
 #endif // ENABLE_WALLET
 };
@@ -569,6 +541,12 @@ std::string JSONRPCExecBatch(const UniValue& vReq)
 
 UniValue CRPCTable::execute(const JSONRPCRequest &request) const
 {
+    // Return immediately if in warmup
+    std::string strWarmupStatus;
+    if (RPCIsInWarmup(&strWarmupStatus)) {
+        throw JSONRPCError(RPC_IN_WARMUP, "RPC in warm-up: " + strWarmupStatus);
+    }
+
     // Find method
     const CRPCCommand* pcmd = tableRPC[request.strMethod];
     if (!pcmd)

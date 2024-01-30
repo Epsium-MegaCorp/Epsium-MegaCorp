@@ -1,5 +1,5 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2021 The DECENOMY Core Developers
+// Copyright (c) 2021-2022 The DECENOMY Core Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -88,7 +88,7 @@ public Q_SLOTS:
     void messageInfo(const QString& message);
     bool execDialog(QDialog *dialog, int xDiv = 3, int yDiv = 5);
     /** Open FAQ dialog **/
-//    void openFAQ(int section = 0);
+    void openFAQ(int section = 0);
 
     /** Show incoming transaction notification for new transactions. */
     void incomingTransaction(const QString& date, int unit, const CAmount& amount, const QString& type, const QString& address);

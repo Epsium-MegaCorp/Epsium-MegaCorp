@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2021 The DECENOMY Core Developers
+// Copyright (c) 2021-2022 The DECENOMY Core Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -51,7 +51,7 @@ static const int MAX_URI_LENGTH = 255;
 
 
 #define QAPP_ORG_NAME "Epsium"
-#define QAPP_ORG_DOMAIN "epsium-megacorp.com"
+#define QAPP_ORG_DOMAIN "epsium.org"
 #define QAPP_APP_NAME_DEFAULT "Epsium-Qt"
 #define QAPP_APP_NAME_TESTNET "Epsium-Qt-testnet"
 

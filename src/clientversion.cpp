@@ -1,6 +1,6 @@
 // Copyright (c) 2012-2017 The Bitcoin Core developers
 // Copyright (c) 2016-2019 The PIVX developers
-// Copyright (c) 2021 The DECENOMY Core Developers
+// Copyright (c) 2021-2022 The DECENOMY Core Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -14,7 +14,7 @@
  * for both epsiumd and epsium-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Epsium");
+const std::string CLIENT_NAME("Epsium Core");
 
 /**
  * Client version number
@@ -46,8 +46,8 @@ const std::string CLIENT_NAME("Epsium");
 //! git will put "#define GIT_ARCHIVE 1" on the next line inside archives. 
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
-#define GIT_COMMIT_ID "e3ffd0fb0d7d4c52e25edea111e700787f42943b"
-#define GIT_COMMIT_DATE "Thu, 29 Jul 2021 17:43:29 +0100"
+#define GIT_COMMIT_ID "98a2a0e7fbc1ecb1814f5a11cff6d44f4fbebd80"
+#define GIT_COMMIT_DATE "Wed, 9 Aug 2023 12:43:21 +0200"
 #endif
 
 #define BUILD_DESC_WITH_SUFFIX(maj, min, rev, build, suffix) \

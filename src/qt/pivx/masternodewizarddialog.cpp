@@ -1,5 +1,5 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2021 The DECENOMY Core Developers
+// Copyright (c) 2021-2022 The DECENOMY Core Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -207,8 +207,8 @@ bool MasterNodeWizardDialog::createMN()
         SendCoinsRecipient sendCoinsRecipient(
                 QString::fromStdString(dest.ToString()),
                 QString::fromStdString(alias),
-                CAmount(CMasternode::GetMasternodeNodeCollateral(chainActive.Height())),
-                "");
+                CAmount(CMasternode::GetNextWeekMasternodeCollateral()),
+                tr("Masternode creation"));
 
         // Send the 10 tx to one of your address
         QList<SendCoinsRecipient> recipients;
@@ -257,7 +257,7 @@ bool MasterNodeWizardDialog::createMN()
         int indexOut = -1;
         for (int i=0; i < (int)walletTx->vout.size(); i++) {
             CTxOut& out = walletTx->vout[i];
-            if (out.nValue == CMasternode::GetMasternodeNodeCollateral(chainActive.Height())) {
+            if (out.nValue == CMasternode::GetNextWeekMasternodeCollateral()) {
                 indexOut = i;
                 break;
             }

@@ -747,8 +747,8 @@ per lo staking</translation>
         <translation>Filtra per</translation>
     </message>
     <message>
-        <source>Amount of EPS and zEPS staked.</source>
-        <translation>Quantità di EPS e zEPS dallo stake.</translation>
+        <source>Amount of EPS staked.</source>
+        <translation>Quantità di EPS in staking.</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1617,45 +1617,17 @@ NODE</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-        https://discord.gg/ARRRgQzpdZ</source>
+        https://discord.gg/cQP5zKnQvu</source>
         <translation>Lingua mancante o traduzione incompleta? Aiutaci a contribuire alle traduzioni qui:
-        https://discord.gg/ARRRgQzpdZ</translation>
+        https://discord.gg/cQP5zKnQvu</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mappa la porta utilizzando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of EPS units to zEPS</source>
-        <translation>Attiva la forgiatura automatica di unità EPS in zEPS</translation>
-    </message>
-    <message>
-        <source>Enable zEPS Automint</source>
-        <translation>Attiva forgiatura automatica zEPS</translation>
-    </message>
-    <message>
-        <source>Enable automatic zEPS minting from specific addresses</source>
-        <translation>Attiva la forgiatura automatica di zEPS da indirizzi specifici</translation>
-    </message>
-    <message>
         <source>Enable Automint Addresses</source>
         <translation>Abilita indirizzi forgiatura automatica</translation>
-    </message>
-    <message>
-        <source>Percentage of incoming EPS which get automatically converted to zEPS via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentuale di EPS in entrata che viene automaticamente convertita in zEPS attraverso il protocollo Zerocoin (min: 10%)</translation>
-    </message>
-    <message>
-        <source>Percentage of autominted zEPS</source>
-        <translation>Percentuale di zEPS Percentuale di zEPS da forgiare automaticamente</translation>
-    </message>
-    <message>
-        <source>Wait with automatic conversion to Zerocoin until enough EPS for this denomination is available</source>
-        <translation>Attendere la conversione automatica in Zerocoin fino a quando non saranno disponibili abbastanza EPS per questa denominazione</translation>
-    </message>
-    <message>
-        <source>Preferred Automint zEPS Denomination</source>
-        <translation>Denominazione preferita forgiatura automatica zEPS</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2415,10 +2387,6 @@ Indirizzo: %4
     <message>
         <source>Custom Backup Path:</source>
         <translation>Percorso di backup personalizzato:</translation>
-    </message>
-    <message>
-        <source>Custom zEPS Backup Path:</source>
-        <translation>Percorso di backup zEPS personalizzato:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3515,8 +3483,8 @@ Si è verificato un errore nel tentativo di salvare l'elenco degli indirizzi in 
         <translation>2) Perché i miei EPS non sono spendibili?</translation>
     </message>
     <message>
-        <source>https://epsium-megacorp.com/</source>
-        <translation>https://epsium-megacorp.com/</translation>
+        <source>https://epsium-megacorp.com//</source>
+        <translation>https://epsium-megacorp.com//</translation>
     </message>
     <message>
         <source>1</source>
@@ -3532,22 +3500,19 @@ Si è verificato un errore nel tentativo di salvare l'elenco degli indirizzi in 
                            EPS is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
                            zero fees.  EPS incorporates market leading security &amp;
-                           privacy and is also the first PoS (Proof of Stake) Cryptocurrency
-                           to implement ZeroCoin(zEPS) and Zerocoin staking.
+                           privacy.
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            EPS utilizes a Proof of Stake (PoS) consensus system algorithm,
                            allowing all owners of EPS to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
-                           run Masternodes to create and vote on proposals.
+                           run Masternodes to earn additional income regularly.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 EPS è una forma di denaro online digitale che utilizza la tecnologia blockchain
 che può essere facilmente trasferito a livello globale, istantaneamente e con quasi
-zero costi. EPS incorpora le tecniche di sicurezza e privacy più avanzate del mercato
-ed è anche la prima criptovaluta PoS (Proof of Stake)
-ad implementare lo staking di ZeroCoin (zEPS) e Zerocoin.
+zero costi. EPS incorpora le tecniche di sicurezza e privacy.
 &lt;/p&gt;&lt;p align="justify"&gt;
 EPS utilizza un algoritmo del sistema di consenso Proof of Stake (PoS),
 consentendo a tutti i proprietari di EPS di partecipare alle ricompense dei blocchi
@@ -3616,14 +3581,14 @@ per vedere e spendere i saldi sulla rete.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #b088ff' href='https://discord.gg/ARRRgQzpdZ'&gt;
+                           &lt;a style='color: #b088ff' href='https://discord.gg/cQP5zKnQvu'&gt;
                            #support in our Discord&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            Abbiamo canali di supporto nella maggior parte dei nostri gruppi di chat ufficiali, ad esempio
-                           &lt;a style='color: #b088ff' href='https://discord.gg/ARRRgQzpdZ'&gt;
+                           &lt;a style='color: #b088ff' href='https://discord.gg/cQP5zKnQvu'&gt;
                            #support nel nostro Discord&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -3650,8 +3615,6 @@ per vedere e spendere i saldi sulla rete.
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
                            &lt;ul&gt;
-                           &lt;li&gt;A decentralized governance (Proposal Voting)&lt;/li&gt;
-                           &lt;li&gt;A decentralized budgeting system (Treasury)&lt;/li&gt;
                            &lt;li&gt;Validation of transactions within each block&lt;/li&gt;
                            &lt;li&gt;Act as an additional full node in the network&lt;/li&gt;
                            &lt;/ul&gt;
@@ -3691,8 +3654,6 @@ regolarmente. Questi servizi includono:
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
                            &lt;ul&gt;
-                           &lt;li&gt;Una governance decentrata (votazione della proposta)&lt;/li&gt;
-                           &lt;li&gt;Un sistema di bilancio decentralizzato (Tesoreria)&lt;/li&gt;
                            &lt;li&gt;Convalida delle transazioni all'interno di ciascun blocco&lt;/li&gt;
                            &lt;li&gt;Funziona come un nodo completo aggiuntivo nella rete&lt;/li&gt;
                            &lt;/ul&gt;
@@ -4613,7 +4574,7 @@ Sei sicuro?
         <translation>Stacking attivo</translation>
     </message>
     <message>
-        <source>Staking not active</source>
+        <source>Staking inactive</source>
         <translation>Stacking non attivo</translation>
     </message>
     <message>
@@ -5063,24 +5024,26 @@ Selezionare meno ingressi con controllo coin.</translation>
         <translation>Seleziona la tua lingua</translation>
     </message>
     <message>
-        <source>Epsium Beyond</source>
-        <translation>Epsium Beyond</translation>
+        <source>Welcome to
+Epsium Wallet</source>
+        <translation>Benvenuto in
+Portafoglio Epsium.</translation>
     </message>
     <message>
-        <source>Epsium beyond forum is the first cryptocurrency forum with its own blockchain based on PoS.</source>
-        <translation>Epsium beyond forum is the first cryptocurrency forum with its own blockchain based on PoS.</translation>
+        <source>EPS is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>EPS è la tecnologia basata su blockchain Proof of Stake più innovativa al mondo. Sviluppato da un team di sviluppatori e crittografi di grande esperienza.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - EPS believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Come dice il nostro manifesto: la privacy è un diritto umano di base non negoziabile; garantisce agli utenti la libertà di condividere i propri dati quando e con chi vuole - EPS crede nell'auto sovranità.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>Masternodes are part of the infrastructure that sustains Epsium coin. They verify new blocks and perform special roles in governing the blockchain.</source>
-        <translation>Masternodes are part of the infrastructure that sustains Epsium coin. They verify new blocks and perform special roles in governing the blockchain.</translation>
+        <source>The masternode network is EPS's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>La rete masternode è la rete di secondo livello di EPS sopra alla blockchain che consente al nostro DAO di fornire governance decentralizzata e tesoreria.</translation>
     </message>
     <message>
-        <source>Be inspired by community</source>
-        <translation>Be inspired by community</translation>
+        <source>How EPS respects your privacy?</source>
+        <translation>In che modo EPS rispetta la tua privacy?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -5118,10 +5081,6 @@ Selezionare meno ingressi con controllo coin.</translation>
         <translation>Impossibile allocare la directory di dati %s. Probabilmente Epsium è già in esecuzione.</translation>
     </message>
     <message>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Modifica il comportamento di votazione automatica del budget finalizzato. mode=auto: vota solo per la corrispondenza esatta del budget finalizzato al mio budget generato. (stringa, impostazione predefinita: auto)</translation>
-    </message>
-    <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Limita continuamente le transazioni gratuite a &lt;n&gt;* 1000 byte al minuto (impostazione predefinita: %u)</translation>
     </message>
@@ -5132,10 +5091,6 @@ Selezionare meno ingressi con controllo coin.</translation>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Elimina tutte le transazioni del portafoglio e recupera solo quelle parti della blockchain tramite -rescan all'avvio</translation>
-    </message>
-    <message>
-        <source>Delete all zerocoin spends and mints that have been recorded to the blockchain database and reindex them (0-1, default: %u)</source>
-        <translation>Elimina tutte le spese e forgiature zerocoin che sono state registrate nella blockchain e le reindicizza (0-1, impostazione predefinita: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -5430,10 +5385,6 @@ Selezionare meno ingressi con controllo coin.</translation>
         <translation>Errore durante la lettura dal database, arresto.</translation>
     </message>
     <message>
-        <source>Error writing zerocoinDB to disk</source>
-        <translation>Errore durante la scrittura di zerocoinDB sul disco</translation>
-    </message>
-    <message>
         <source>Error</source>
         <translation>Errore</translation>
     </message>
@@ -5534,14 +5485,6 @@ Selezionare meno ingressi con controllo coin.</translation>
         <translation>Ricalcolo della supply EPS...</translation>
     </message>
     <message>
-        <source>Reindexing zerocoin database...</source>
-        <translation>Reindicizzazione del database zerocoin...</translation>
-    </message>
-    <message>
-        <source>Reindexing zerocoin failed</source>
-        <translation>Errore nella reindicizzazione del database zerocoin</translation>
-    </message>
-    <message>
         <source>Selected coins value is less than payment target</source>
         <translation>Il valore delle coin selezionate è inferiore all'obiettivo di pagamento</translation>
     </message>
@@ -5550,12 +5493,8 @@ Selezionare meno ingressi con controllo coin.</translation>
         <translation>Questa è una build di test pre-release - utilizzare a proprio rischio - non utilizzare per staking o applicazioni commerciali!</translation>
     </message>
     <message>
-        <source>Disable all EPS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disabilita tutte le funzionalità specifiche di EPS (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</translation>
-    </message>
-    <message>
-        <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Abilita SwiftX, mostra le conferme per le transazioni bloccate (valore bool, predefinito: %s)</translation>
+        <source>Disable all EPS specific functionality (Masternodes) (0-1, default: %u)</source>
+        <translation>Disabilita tutte le funzionalità specifiche di EPS (Masternodes) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
@@ -5630,14 +5569,6 @@ Selezionare meno ingressi con controllo coin.</translation>
         <translation>Analisi della spesa pubblica non riuscita</translation>
     </message>
     <message>
-        <source>Failed to select a zerocoin</source>
-        <translation>Impossibile selezionare uno zerocoin</translation>
-    </message>
-    <message>
-        <source>Failed to wipe zerocoinDB</source>
-        <translation>Impossibile cancellare zerocoinDB</translation>
-    </message>
-    <message>
         <source>Failed to write coin serial number into wallet</source>
         <translation>Impossibile scrivere il numero seriale della coin nel portafoglio</translation>
     </message>
@@ -5672,10 +5603,6 @@ Selezionare meno ingressi con controllo coin.</translation>
     <message>
         <source>Loading block index...</source>
         <translation>Caricamento indice dei blocchi...</translation>
-    </message>
-    <message>
-        <source>Loading budget cache...</source>
-        <translation>Caricamento cache budget...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -6084,10 +6011,6 @@ Selezionare meno ingressi con controllo coin.</translation>
         <translation>Sincronizzazione finita</translation>
     </message>
     <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Sincronizzazione budgets...</translation>
-    </message>
-    <message>
         <source>Synchronizing masternode winners...</source>
         <translation>Sincronizzazione dei Masternode vincitori...</translation>
     </message>
@@ -6098,10 +6021,6 @@ Selezionare meno ingressi con controllo coin.</translation>
     <message>
         <source>Synchronizing sporks...</source>
         <translation>Sincronizzazione sporks...</translation>
-    </message>
-    <message>
-        <source>Syncing zEPS wallet...</source>
-        <translation>Sincronizzazione del portafoglio zEPS...</translation>
     </message>
     <message>
         <source>The threshold value cannot be less than %s</source>
@@ -6220,10 +6139,6 @@ Selezionare meno ingressi con controllo coin.</translation>
         <translation>Nome utente per connessioni JSON-RPC</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zEPS</source>
-        <translation>Il valore è inferiore alla denominazione più piccola disponibile (=1) di zEPS</translation>
-    </message>
-    <message>
         <source>Verifying blocks...</source>
         <translation>Verifica dei blocchi...</translation>
     </message>
@@ -6264,10 +6179,6 @@ Selezionare meno ingressi con controllo coin.</translation>
         <translation>Avvertenza: argomento non supportato -debugnet ignorato, utilizzare -debug=net.</translation>
     </message>
     <message>
-        <source>You don't have enough Zerocoins in your wallet</source>
-        <translation>Non hai abbastanza Zerocoin nel tuo portafoglio</translation>
-    </message>
-    <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>È necessario ricostruire il database utilizzando -reindex per modificare -txindex</translation>
     </message>
@@ -6278,14 +6189,6 @@ Selezionare meno ingressi con controllo coin.</translation>
     <message>
         <source>ZeroMQ notification options:</source>
         <translation>Opzioni di notifica ZeroMQ:</translation>
-    </message>
-    <message>
-        <source>Zerocoin minting available only on regtest</source>
-        <translation>Coniatura di Zerocoin disponibile solo su regtest</translation>
-    </message>
-    <message>
-        <source>Zerocoin options:</source>
-        <translation>Opzioni Zerocoin:</translation>
     </message>
     <message>
         <source>on startup</source>
