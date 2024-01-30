@@ -13,6 +13,7 @@
 ### Links
 * Explorer https://explorer.epsium-megacorp.com/
 * Website [epsium-megacorp.com/](https://epsium-megacorp.com/)
+* Website https://epsium-host.com
 * Discort https://discord.gg/ke8D6MNb
 
 | Block        | Block        | Reward | Collateral | Mnreward | POS    |
