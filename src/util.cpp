@@ -92,7 +92,7 @@ const char * const PIVX_MASTERNODE_CONF_FILENAME = "masternode.conf";
 const char * const PIVX_ACTIVE_MASTERNODE_CONF_FILENAME = "activemasternode.conf";
 
 
-// __Decenomy__ only features
+// Epsium only features
 // Masternode
 bool fMasterNode = false;
 bool fStaking = false;

@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Epsium Core"
-#define MyAppPublisher "2022 DECENOMY Core Developers"
+#define MyAppPublisher "2024 Epsium-MegaCorp Core Developers"
 #define MyAppURL "https://epsium.com"
 #define MyAppExeName "epsium-qt.exe"
 #define MyAppExtraData "https://github.com/Epsium-MegaCorp/Epsium-MegaCorp/releases/download/1.2.0.0/bootstrap.zip"

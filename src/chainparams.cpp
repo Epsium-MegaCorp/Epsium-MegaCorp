@@ -182,8 +182,8 @@ public:
         // spork keys
         consensus.strSporkPubKey = "041b2f3a62297e9ddf837d28be70fc39cfe1f64d6d36e03e2af8122d7534b7702c809586c929c96e65985bc049bf4863ddbea5f0cc9e25cb7b6fa56ac5da46a2de";
         consensus.strSporkPubKeyOld = "0440cc2cd736c0b9700f3f16bfd84b79096128ebe186adcc4f6abdde519aa94f9dfe3e6316df0ddfa304c1cd6825ad2241aa44e040b2c163b6308eeea25897b00a";
-        consensus.nTime_EnforceNewSporkKey = 1706745600;
-        consensus.nTime_RejectOldSporkKey = 1706745600;
+        consensus.nTime_EnforceNewSporkKey = 1706832000;
+        consensus.nTime_RejectOldSporkKey = 1707436800;
 
         // burn addresses
         consensus.mBurnAddresses = {
@@ -328,14 +328,14 @@ public:
         // nodes with support for servicebits filtering should be at the top
         vSeeds.push_back(CDNSSeedData("tseeder", "tseeder.epsium-megacorp.com", true));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet __decenomy__ addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet __decenomy__ script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet epsium addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet epsium script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet __decenomy__ BIP32 pubkeys start with 'DRKV'
+        // Testnet epsium BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet __decenomy__ BIP32 prvkeys start with 'DRKP'
+        // Testnet epsium BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet __decenomy__ BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet epsium BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));

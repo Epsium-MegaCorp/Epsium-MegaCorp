@@ -1,6 +1,6 @@
 [Protocol]
-exec=__decenomy__-qt '%u'
-protocol=__decenomy__
+exec=epsium-qt '%u'
+protocol=epsium
 input=none
 output=none
 helper=true

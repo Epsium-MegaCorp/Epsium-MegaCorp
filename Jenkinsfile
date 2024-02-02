@@ -3,9 +3,9 @@ pipeline {
     agent any
 
     environment {
-        NAME = '__Decenomy__'
-        BASE_NAME = '__decenomy__'
-        ZIP_NAME = '__DSW__'
+        NAME = 'Epsium'
+        BASE_NAME = 'epsium'
+        ZIP_NAME = 'EPS'
     }
 
     stages {
@@ -23,7 +23,7 @@ pipeline {
                     rm -rf SDKs
                     mkdir SDKs
                     cd SDKs
-                    wget -c https://github.com/decenomy/depends/raw/main/SDKs/MacOSX10.11.sdk.tar.xz
+                    wget -c https://github.com/Epsium-MegaCorp/depends/raw/main/SDKs/MacOSX10.11.sdk.tar.xz
                     tar -xf MacOSX10.11.sdk.tar.xz
                     cd ..
                     make -j $(nproc) HOST=x86_64-apple-darwin14
