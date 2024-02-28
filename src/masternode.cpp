@@ -378,48 +378,50 @@ CAmount CMasternode::GetMasternodeNodeCollateral(int nHeight)
     } else if (nHeight <= 87600) {
         return 6000 * COIN;
     } else if (nHeight <= 131400) {
-        return 7000 * COIN;
-    } else if (nHeight <= 175200) {
-        return 8000 * COIN;
-    } else if (nHeight <= 219000) {
         return 9000 * COIN;
-    } else if (nHeight <= 262800) {
-        return 10000 * COIN;
-    } else if (nHeight <= 306600) {
-        return 11000 * COIN;
-    } else if (nHeight <= 350400) {
+    } else if (nHeight <= 175200) {
         return 12000 * COIN;
-    } else if (nHeight <= 394200) {
-        return 13000 * COIN;
-    } else if (nHeight <= 438000) {
-        return 14000 * COIN;
-    } else if (nHeight <= 481800) {
+    } else if (nHeight <= 219000) {
         return 15000 * COIN;
-    } else if (nHeight <= 525600) {
-        return 16000 * COIN;
-    } else if (nHeight <= 613200) {
-        return 18000 * COIN;
-    } else if (nHeight <= 700800) {
-        return 20000 * COIN;
-    } else if (nHeight <= 788400) {
-        return 25000 * COIN;
-    } else if (nHeight <= 876000) {
-        return 30000 * COIN;
-    } else if (nHeight <= 963600) {
+    } else if (nHeight <= 262800) {
+        return 19000 * COIN;
+    } else if (nHeight <= 306600) {
+        return 24000 * COIN;
+    } else if (nHeight <= 350400) {
+        return 28000 * COIN;
+    } else if (nHeight <= 394200) {
+        return 31000 * COIN;
+    } else if (nHeight <= 438000) {
+        return 35000 * COIN;
+    } else if (nHeight <= 481800) {
         return 40000 * COIN;
-    } else if (nHeight <= 1051200) {
+    } else if (nHeight <= 525600) {
+        return 45000 * COIN;
+    } else if (nHeight <= 613200) {
         return 50000 * COIN;
-    } else if (nHeight <= 1182600) {
-        return 60000 * COIN;
-    } else if (nHeight <= 1314000) {
+    } else if (nHeight <= 700800) {
+        return 70000 * COIN;
+    } else if (nHeight <= 788400) {
         return 90000 * COIN;
-    } else if (nHeight <= 1445400) {
-        return 120000 * COIN;
-    } else if (nHeight <= 1576800) {
+    } else if (nHeight <= 876000) {
+        return 110000 * COIN;
+    } else if (nHeight <= 963600) {
         return 150000 * COIN;
+    } else if (nHeight <= 1051200) {
+        return 190000 * COIN;
+    } else if (nHeight <= 1182600) {
+        return 225000 * COIN;
+    } else if (nHeight <= 1314000) {
+        return 370000 * COIN;
+    } else if (nHeight <= 1445400) {
+        return 550000 * COIN;
+    } else if (nHeight <= 1576800) {
+        return 750000 * COIN;
     } else if (nHeight <= 1839600) {
-        return 250000 * COIN;
-    } else if (nHeight > 1839600) {
+        return 1350000 * COIN;
+    } else if (nHeight <= 1839600) {
+        return 3200000 * COIN;
+    } else if (nHeight > 2102401) {
         return 500000 * COIN;
     }
     return 0;
@@ -504,7 +506,11 @@ CAmount CMasternode::GetMasternodePayment(int nHeight)
         return 0;
     }
 
-    return CMasternode::GetBlockValue(nHeight) * 75 / 100;
+    if (nHeight <= 87600) {
+        return CMasternode::GetBlockValue(nHeight) * 75 / 100;
+    }
+
+    return CMasternode::GetBlockValue(nHeight) * 90 / 100;
 }
 
 void CMasternode::InitMasternodeCollateralList() {

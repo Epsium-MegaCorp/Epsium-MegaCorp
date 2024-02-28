@@ -166,13 +166,13 @@ public:
         consensus.powLimit   = ~UINT256_ZERO >> 20;   
         consensus.posLimitV1 = ~UINT256_ZERO >> 24;
         consensus.posLimitV2 = ~UINT256_ZERO >> 20;
-        consensus.nCoinbaseMaturity = 25;
+        consensus.nCoinbaseMaturity = 50;
         consensus.nFutureTimeDriftPoW = 7200;
         consensus.nFutureTimeDriftPoS = 180;
         consensus.nMaxMoneyOut = 1175600000 * COIN;
         consensus.nPoolMaxTransactions = 3;
         consensus.nStakeMinAge = 60 * 60; // 1h
-        consensus.nStakeMinDepth = 100;
+        consensus.nStakeMinDepth = 200;
         consensus.nStakeMinDepthV2 = 300;
         consensus.nTargetTimespan = 40 * 60;
         consensus.nTargetTimespanV2 = 30 * 60;
@@ -180,10 +180,10 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "04bce10c6e2cfe7521704c3619be01aa1065ce5055945fc44624f9e41a02e8cc517aa0a162aa8b5b1222342933adcde72a8107eee9937eb24870af1abc5dd9ed87";
-        consensus.strSporkPubKeyOld = "041b2f3a62297e9ddf837d28be70fc39cfe1f64d6d36e03e2af8122d7534b7702c809586c929c96e65985bc049bf4863ddbea5f0cc9e25cb7b6fa56ac5da46a2de";
-        consensus.nTime_EnforceNewSporkKey = 1706832000;
-        consensus.nTime_RejectOldSporkKey = 1707436800;
+        consensus.strSporkPubKey = "04ddb718a3a8ee3a5f592b0aa38bbcb0e861e0881c64539273519624cad04a7a8e4e09cb84bd44501609be2b90520ec370e5b714af79c84890975a0dbe59bab1a7";
+        consensus.strSporkPubKeyOld = "04bce10c6e2cfe7521704c3619be01aa1065ce5055945fc44624f9e41a02e8cc517aa0a162aa8b5b1222342933adcde72a8107eee9937eb24870af1abc5dd9ed87";
+        consensus.nTime_EnforceNewSporkKey = 1709226000;
+        consensus.nTime_RejectOldSporkKey = 1709830800;
 
         // burn addresses
         consensus.mBurnAddresses = {
